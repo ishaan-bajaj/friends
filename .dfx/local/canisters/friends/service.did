@@ -1,0 +1,17 @@
+type List = 
+ opt record {
+       text;
+       List;
+     };
+type FriendId = nat32;
+type Friend = 
+ record {
+   attributes: List;
+   name: text;
+ };
+service : {
+  create: (Friend) -> (FriendId);
+  delete: (FriendId) -> (bool);
+  read: (FriendId) -> (opt Friend) query;
+  update: (FriendId, Friend) -> (bool);
+}

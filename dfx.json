@@ -1,0 +1,28 @@
+{
+  "canisters": {
+    "friends": {
+      "main": "src/friends/Main.mo",
+      "type": "motoko"
+    },
+    "www": {
+      "dependencies": [
+        "friends"
+      ],
+      "frontend": {
+        "entrypoint": "src/www/index.html"
+      },
+      "source": [
+        "src/www/components",
+        "src/www/utilities",
+        "dist/www/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": ""
+    }
+  },
+  "version": 1
+}

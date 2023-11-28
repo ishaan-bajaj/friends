@@ -1,0 +1,41 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f5f9; /* Light blue background color */
+  color: #333; /* Dark text color */
+}
+
+header {
+  background-color: #3498db; /* Blue header background color */
+  color: #ffffff; /* White text color */
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center top;
+  height: 100vh;
+}
+
+.crud-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 20px;
+  column-gap: 50px;
+}
+
+.crud-section {
+  width: 100%;
+  max-width: 400px;
+  background-color: #ffffff; /* White component background color */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light box shadow */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Add more styling as needed */

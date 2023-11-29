@@ -1,20 +1,19 @@
 {
-  "name": "template_assets",
+  "name": "",
   "author": {
-    "email": "enzo@dfinity.org",
-    "name": "Enzo Haussecker"
+    "email": "",
+    "name": ""
   },
   "contributors": [
     {
-      "email": "andrew.wylde@dfinity.org",
-      "name": "Andrew Wylde"
+      "email": "",
+      "name": ""
     }
   ],
   "license": "SEE LICENSE IN LICENSE",
   "version": "0.0.0",
   "description": [
-    "A simple example that demonstrates how to build a CRUD application on",
-    "the Internet Computer using Motoko and React."
+    "A simple example that demonstrates how to build a CRUD app",
   ],
   "keywords": [
     "Internet Computer",
